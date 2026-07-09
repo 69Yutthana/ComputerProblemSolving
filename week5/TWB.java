@@ -9,8 +9,8 @@ void main() {
     double Bonus = Double.parseDouble(IO.readln());
     double TS = S1 + S2 + S3;
     double TWB = TS + Bonus;
-    double averageOfTwb = TS /3
+    double averageOfTwb = TWB/3;
 IO.println("Total score = " + TS);
     IO.println("Total with bonus = " + TWB);
-    IO.println("Average of totalWithBonus(%.0f) = %2f " poins ) ;
+    IO.println("Average of totalWithBonus (" + TWB + ") =" + averageOfTwb );
 }
